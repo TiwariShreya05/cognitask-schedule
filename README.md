@@ -98,21 +98,7 @@ npm run test
 npx playwright test
 ```
 
----
 
-## 👥 Team
-
-This project was built as a collaborative team project by:
-
-- **Member 1** – [GitHub Profile](https://github.com/)
-- **Member 2** – [GitHub Profile](https://github.com/)
-- **Member 3** – [GitHub Profile](https://github.com/)
-
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
   
   
 

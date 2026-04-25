@@ -3,7 +3,7 @@
 A smart scheduling web application that helps users manage their time efficiently using AI-powered recommendations and an intuitive interface.
 
 --- 
-
+  
 ## 🚀 Features
 
 - 📌 Smart task scheduling with AI/ML-based suggestions

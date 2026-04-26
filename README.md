@@ -10,7 +10,7 @@ A smart scheduling web application that helps users manage their time efficientl
 - 📊 Dashboard to view and manage your daily schedule
 - 🔔 Reminders and notifications
 - 📁 Data-driven insights for better time management
-- 🌐 Full-stack web application with a React frontend and Python backend
+- 🌐 Full-stack web application with a React frontend and Python backend 
 
 ---         
 

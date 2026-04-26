@@ -12,7 +12,7 @@ A smart scheduling web application that helps users manage their time efficientl
 - 📁 Data-driven insights for better time management
 - 🌐 Full-stack web application with a React frontend and Python backend
 
---- 
+---         
 
 ## 🛠️ Tech Stack
 

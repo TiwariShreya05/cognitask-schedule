@@ -5,7 +5,7 @@ A smart scheduling web application that helps users manage their time efficientl
 ---          
   
 ## 🚀 Features
-             
+              
 - 📌 Smart task scheduling with AI/ML-based suggestions
 - 📊 Dashboard to view and manage your daily schedule
 - 🔔 Reminders and notifications

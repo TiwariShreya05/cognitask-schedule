@@ -16,7 +16,7 @@ A smart scheduling web application that helps users manage their time efficientl
 
 ## 🛠️ Tech Stack   
 
-| Layer | Technology |
+| Layer | Technology |   
 |-------|------------|         
 | Frontend | React, TypeScript, Tailwind CSS |
 | Backend | Python (Node/Express) |

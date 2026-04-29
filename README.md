@@ -14,7 +14,7 @@ A smart scheduling web application that helps users manage their time efficientl
 
 ---         
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack   
 
 | Layer | Technology |
 |-------|------------|         

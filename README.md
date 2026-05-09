@@ -29,7 +29,7 @@ A smart scheduling web application that helps users manage their time efficientl
 
 ## 📂 Project Structure
 
-```
+```. 
 smart-schedule-hub/
 ├── backend/         # Server-side API and logic
 ├── data/            # Dataset files for ML training/testing

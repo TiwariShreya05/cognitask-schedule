@@ -1,4 +1,4 @@
-# 📅 Smart Schedule Hub
+# 📅 Smart Schedule Hub. 
 
 A smart scheduling web application that helps users manage their time efficiently using AI-powered recommendations and an intuitive interface.
   

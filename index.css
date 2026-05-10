@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 222 47% 11%;
+    --foreground: 213 31% 91%;
+
+    --card: 217 33% 17%;
+    --card-foreground: 213 31% 91%;
+
+    --popover: 217 33% 17%;
+    --popover-foreground: 213 31% 91%;
+
+    --primary: 217 91% 60%;
+    --primary-foreground: 222 47% 11%;
+
+    --secondary: 217 33% 22%;
+    --secondary-foreground: 213 31% 91%;
+
+    --muted: 217 33% 17%;
+    --muted-foreground: 215 20% 55%;
+
+    --accent: 217 91% 60%;
+    --accent-foreground: 222 47% 11%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217 33% 22%;
+    --input: 217 33% 22%;
+    --ring: 217 91% 60%;
+
+    --radius: 0.75rem;
+
+    --glass-bg: 217 33% 17%;
+    --glass-border: 217 33% 30%;
+    --glass-shadow: 222 47% 5%;
+
+    --priority-high: 0 72% 51%;
+    --priority-high-intense: 0 62% 40%;
+    --priority-medium: 217 91% 60%;
+    --priority-low: 142 71% 45%;
+    --priority-fixed: 270 67% 55%;
+    --priority-orange: 25 95% 53%;
+
+    --success: 142 71% 45%;
+    --success-foreground: 222 47% 11%;
+
+    --sidebar-background: 222 47% 11%;
+    --sidebar-foreground: 213 31% 91%;
+    --sidebar-primary: 217 91% 60%;
+    --sidebar-primary-foreground: 222 47% 11%;
+    --sidebar-accent: 217 33% 22%;
+    --sidebar-accent-foreground: 213 31% 91%;
+    --sidebar-border: 217 33% 22%;
+    --sidebar-ring: 217 91% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply rounded-xl border;
+    background: hsl(var(--glass-bg) / 0.6);
+    border-color: hsl(var(--glass-border) / 0.3);
+    backdrop-filter: blur(16px);
+    box-shadow: 0 8px 32px hsl(var(--glass-shadow) / 0.4);
+  }
+
+  .glass-card-hover {
+    @apply glass-card transition-all duration-300;
+  }
+  .glass-card-hover:hover {
+    border-color: hsl(var(--primary) / 0.4);
+    box-shadow: 0 8px 32px hsl(var(--primary) / 0.15);
+  }
+
+  .priority-high {
+    background: hsl(var(--priority-high));
+  }
+  .priority-high-intense {
+    background: hsl(var(--priority-high-intense));
+  }
+  .priority-medium {
+    background: hsl(var(--priority-medium));
+  }
+  .priority-low {
+    background: hsl(var(--priority-low));
+  }
+  .priority-fixed {
+    background: hsl(var(--priority-fixed));
+  }
+  .priority-orange {
+    background: hsl(var(--priority-orange));
+  }
+
+  .glow-primary {
+    box-shadow: 0 0 20px hsl(var(--primary) / 0.3), 0 0 60px hsl(var(--primary) / 0.1);
+  }
+}

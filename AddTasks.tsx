@@ -9,7 +9,7 @@ import { Switch } from '@/components/ui/switch';
 import { Label } from '@/components/ui/label';
 import { Task, Priority, Effort, TimeOfDay, DayOfWeek, DAYS } from '@/lib/types';
 import { getTasks, saveTasks, generateSchedule, getCurrentWeek, addReminder } from '@/lib/taskStore';
-import { toast } from '@/hooks/use-toast';
+import { toast } from '@/hooks/use-toast';  
 import Navbar from '@/components/Navbar';
 
 const priorityColors: Record<Priority, string> = {

@@ -18,6 +18,7 @@ const priorityColors: Record<Priority, string> = {
   low: 'bg-low/20 text-low border-low/30',
 };
 
+
 export default function AddTasks() {
   const navigate = useNavigate();
   const [tasks, setTasks] = useState<Task[]>(getTasks());

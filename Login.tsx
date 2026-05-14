@@ -10,7 +10,7 @@ export default function Login() {
   const [isSignUp, setIsSignUp] = useState(false);
   const [isManagerLogin, setIsManagerLogin] = useState(false);
   const [email, setEmail] = useState('');
-  const [username, setUsername] = useState('');
+  const [username, setUsername] = useState(''); 
   const [displayName, setDisplayName] = useState('');
   const [password, setPassword] = useState('');
   const navigate = useNavigate();

@@ -4,7 +4,7 @@ import { Brain, Mail, Lock, User, UserCog } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { login, signup } from '@/lib/auth';
-import { toast } from '@/hooks/use-toast';
+import { toast } from '@/hooks/use-toast'; 
 
 export default function Login() {
   const [isSignUp, setIsSignUp] = useState(false);

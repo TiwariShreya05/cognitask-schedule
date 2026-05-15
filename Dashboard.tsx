@@ -10,6 +10,7 @@ import Navbar from '@/components/Navbar';
 const dayIndex = new Date().getDay();
 const TODAY: DayOfWeek = DAYS[dayIndex === 0 ? 6 : dayIndex - 1];
 
+
 function getGreeting() {
   const h = new Date().getHours();
   if (h < 12) return 'Good Morning';

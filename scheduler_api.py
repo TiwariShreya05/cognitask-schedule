@@ -4,7 +4,7 @@ import joblib
 
 router = APIRouter()
 models = joblib.load("ml/cognitask_scheduler_model.pkl")
-
+ 
 WINDOW_HOURS = {
     "morning": list(range(8, 12)),
     "afternoon": list(range(12, 17)),

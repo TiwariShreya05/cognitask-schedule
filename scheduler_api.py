@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 import pandas as pd
-import joblib
+import joblib 
 
 router = APIRouter()
 models = joblib.load("ml/cognitask_scheduler_model.pkl")

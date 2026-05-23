@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Sparkles, Bell, Clock, Zap } from 'lucide-react'; 
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, BarChart, Bar, PieChart, Pie, Cell } from 'recharts';  
 import { toast } from '@/hooks/use-toast';
-import Navbar from '@/components/Navbar';
+import Navbar from '@/components/Navbar';          
 
 const dayIndex = new Date().getDay();
 const TODAY: DayOfWeek = DAYS[dayIndex === 0 ? 6 : dayIndex - 1];

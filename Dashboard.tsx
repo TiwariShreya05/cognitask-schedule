@@ -3,7 +3,7 @@ import { getTasks, saveTasks, getCurrentWeek, setCurrentWeek, savePattern, gener
 import { Task, DAYS, DayOfWeek, TaskStatus } from '@/lib/types';
 import { Button } from '@/components/ui/button';
 import { Sparkles, Bell, Clock, Zap } from 'lucide-react';
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, BarChart, Bar, PieChart, Pie, Cell } from 'recharts';
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, BarChart, Bar, PieChart, Pie, Cell } from 'recharts';  
 import { toast } from '@/hooks/use-toast';
 import Navbar from '@/components/Navbar';
 

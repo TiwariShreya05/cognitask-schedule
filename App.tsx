@@ -70,6 +70,7 @@ function ReminderChecker() {
     const interval = setInterval(checkReminders, 10000);
     return () => clearInterval(interval);
   }, []);
+  
   return null;
 }
 

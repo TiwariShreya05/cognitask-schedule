@@ -21,6 +21,7 @@ function EmployeeRoute({ children }: { children: React.ReactNode }) {
   if (!isLoggedIn()) return <Navigate to="/login" replace />;
   if (isManager()) return <Navigate to="/manager" replace />;
   return <>{children}</>;
+  
 }
 
 function ManagerRoute({ children }: { children: React.ReactNode }) {
